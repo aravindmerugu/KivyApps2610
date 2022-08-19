@@ -1,7 +1,8 @@
 name: CI
-on:
-  push:
-    branches: [ KivyApps2610 ]
+on: [workflow_dispatch]
+# on: 
+#   push:
+#     branches: [ main ]
 
 jobs:
   build:
